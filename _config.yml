@@ -1,1 +1,28 @@
-encoding: utf-8
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+pygments: true
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author: 
+  name: 陈信
+  email: shin.chen@foxmail.com
+  link: 
+  weibo: 
+  github: http://github.com/xinshin
+
+# 站点信息
+title: 的博客 
+description: 陈信的博客
+url: http://xinshin.github.io
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
+avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
+favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+
+# disqus 设置
+disqus:
+  shortname: suyan-zh
